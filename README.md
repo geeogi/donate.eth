@@ -10,8 +10,15 @@ cd donate.eth
   
 4. Then install a server:  
   
-npm install lite-server --save-dev   
+npm install lite-server --save-dev  
+
+5. Then...
+
+# Inside package.json...
+  "scripts": {    
+    "dev": "lite-server"
+  },
   
-5. Then run the server:  
+6. Then run the server:  
   
-npm run lite-server  
+npm run dev
